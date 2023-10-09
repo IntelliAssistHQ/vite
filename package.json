@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "watch": "vite build --watch"
+    "watch": "vite build --watch",
+    "push":"npm run build && git add . && git commit -m 'update' && git push"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
