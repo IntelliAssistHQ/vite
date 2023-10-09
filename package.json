@@ -6,9 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "watch": "vite build --watch",
-    "pull":"git subtree pull --prefix=dist main static_page",
-    "deploy": "git subtree push --prefix=dist main static_page"
+    "watch": "vite build --watch"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
